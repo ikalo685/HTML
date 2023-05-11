@@ -35,6 +35,21 @@ form{
 	padding: 35px;
 	text-align: right;
 }
+
+.input {
+    margin: 0.4rem 0;
+}
+/*image adaptative*/
+.img3 {
+    width: 400px;
+}
+@media (max-width: 580px) {
+    img {
+        width: 100%;
+    }
+}
+
+
 /*fin navbar*/ 
 /*...........................................*/
 /*@media screen and (max-width: 1499px ){
@@ -42,10 +57,29 @@ form{
 		width: 90%;
 	}
 } */
+/*debut main*/
 
 
+      .main {
+        display: flex;
+        flex-direction: row;
+      }
+      .sidebar {
+        width: 25%;
+        padding: 10px;
+        background-color: #f2f2f2;
+      }
+      .article {
+        width: 50%;
+        padding: 10px;
+        background-color: #fff;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
 
 
+/*fin main*/
 
 /*debut footer*/
 /*body{
