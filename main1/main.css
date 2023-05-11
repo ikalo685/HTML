@@ -1,0 +1,37 @@
+
+.contenair{
+	display: flex; /*comme conteneur flexible*/
+	justify-content: space-between; /*place les elements ds le conteneur*/ 
+}
+	.left-section{
+		padding: 0px;
+		width: 20%;/*largeur de la section*/
+		background-color: red;
+		float: left;/*place la section de gauche a gauche*/
+		border: solid;
+		margin: 20px;
+	}
+	.middle-section{
+/*		width: 20%; /*largeur de la section de droite*/*/
+/*		border: solid;*/
+		width: 20%;
+	   min-width: 50px;
+/*	   height: available;*/
+	   min-height: 50px;
+/*	   float: left;*/
+	   background-color: royalblue;
+/*	   border-collapse: collapse;*/
+	}
+	.right-section{
+		padding: 5px;
+		width: 20%;
+		background-color: yellow;
+		border: solid;
+
+	}
+	
+
+	/*.left-section h4{
+		float: left;
+		width: 30%;
+	}*/
